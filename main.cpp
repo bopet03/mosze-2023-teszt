@@ -26,5 +26,8 @@ int main()
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
     delete[] b; // Felszabadítjuk a dinamikusan lefoglalt memóriát
+
+    std::cout << "A program sikeresen lefutott!" << std::endl;
+
     return 0;
 }
